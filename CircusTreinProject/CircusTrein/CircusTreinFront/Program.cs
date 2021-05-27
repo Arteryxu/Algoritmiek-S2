@@ -13,7 +13,7 @@ namespace CircusTreinFront
                 new Animal("Tiger", spaceUsed.Medium, foodType.Carnivore ),
                 new Animal("Elephant", spaceUsed.Large, foodType.Herbivore)
             };
-        Console.WriteLine("Hello World!");
+        Console.WriteLine(animals + "gamer");
         }
     }
 }

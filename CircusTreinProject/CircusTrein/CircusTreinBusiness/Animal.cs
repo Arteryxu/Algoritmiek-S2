@@ -15,5 +15,10 @@ namespace CircusTreinBusiness
         public string name { get; set; }
 
         public foodType diet { get; set; }
+
+        public int GetPoints()
+        {
+            return (int)size;
+        }
     }
 }
